@@ -2,7 +2,7 @@
 <html lang="zh">
 <head>
 <meta charset="UTF-8">
-<title>周了个深</title>
+<title>可了个嫑</title>
 
 <style>
 body{
@@ -81,7 +81,7 @@ h2{
 
 <body>
 
-<h2>周了个深</h2>
+<h2>可了个嫑</h2>
 
 <div id="game-box"></div>
 <div id="slot"></div>
@@ -202,14 +202,14 @@ function checkEnd(){
 
     if(slot.length>=7){
         setTimeout(()=>{
-            alert("失败了！");
+            alert("可可的巧克力配方丢失啦！再试一次吧！");
             location.reload();
         },100);
     }
 
     if(cards.every(c=>c.state===2)){
         setTimeout(()=>{
-            alert("通关成功！");
+            alert("可可的巧克力配方被你找到啦！你真棒！");
             location.reload();
         },100);
     }
